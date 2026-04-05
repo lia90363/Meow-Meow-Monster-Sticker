@@ -1,18 +1,24 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-[#f5f7ff]">
+  <div class="flex flex-col min-h-screen bg-bg">
     <nav class="navbar sticky top-0 z-[100] flex items-center bg-primary-dark py-2.5 px-6 sm:px-8 sm:gap-2 shadow-lg">
       <router-link to="/" class="nav-btn">首頁</router-link>
-      <router-link to="/favorites" class="nav-btn">
+      <router-link to="/favorites" class="nav-btn relative">
         最愛
-        <span v-if="favoriteCount > 0">
-          ({{ favoriteCount }})
+        <span 
+          v-if="favoriteCount > 0"
+          class="absolute -top-1 -right-2 
+          flex items-center justify-center 
+          bg-sky-600 text-white text-[10px] font-bold
+          w-5 h-5 rounded-full border-2 border-blue-600 shadow-sm"
+        >
+          {{ favoriteCount }}
         </span>
       </router-link>
       
       <div class="theme-switch" @click="toggleTheme">
         <div class="switch-handle">
-          <span v-if="theme === 'light'" class="icon mr-4">☀️</span>
-          <span v-else class="icon">🌙</span>
+          <span v-if="theme === 'light'" class="icon mx-3">☀️</span>
+          <span v-else class="icon mx-3">🌙</span>
         </div>
       </div>
       <div id="nav-search-target" class="ml-auto flex items-center"></div>

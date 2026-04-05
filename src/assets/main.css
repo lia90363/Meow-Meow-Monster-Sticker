@@ -10,7 +10,6 @@
   --color-bg: #f8f7ff;
   --color-card-bg: #ffffff;
   --color-border: #d2deeb;
-  --color-nav-bg: #f2f0ff; 
 
   /* v4 會自動對應到 rounded-sm, rounded-md */
   --radius-sm: 8px;
@@ -29,15 +28,13 @@
 
 /* 深色模式切換 */
 [data-theme="dark"] {
-  --color-primary: #a5b4fc;
+  --color-primary: #4b61ce;
   --color-primary-soft: #2e3548;
-  --color-primary-dark: #30498d; 
+  --color-primary-dark: #20305a; 
   --color-text: #f3f4f6;
-  --color-text-soft: #9ca3af;
-  --color-bg: #0f172a;  
-  --color-card-bg: #1e293b;
-  --color-border: #334155;
-  --color-nav-bg: #1e293b;
+  --color-text-soft: #babec4;
+  --color-bg: #111d38;  
+  --color-card-bg: #2c4261;
 }
 
 @layer base {

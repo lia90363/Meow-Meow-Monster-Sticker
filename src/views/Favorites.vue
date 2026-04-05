@@ -18,7 +18,7 @@ const favoriteStore = useFavoriteStore()
         flex flex-col min-h-[128px] justify-between overflow-hidden transition-transform duration-200
         hover:-translate-y-1 hover:border-primary
       ">
-      <button @click="favoriteStore.toggleFavorite(item)" class="absolute top-2 right-2 p-1.5 cursor-pointer z-10 transition-transform active:scale-125">❌</button>
+      <button @click="favoriteStore.toggleFavorite(item)" class="absolute top-2 right-2 p-1.5 cursor-pointer z-10 transition-transform active:scale-125">❤️</button>
       <div class="item-title text-[1.1rem] font-semibold leading-normal mb-0.5 line-clamp-1">{{ item.title }}</div>
       <div class="item-category text-[0.85rem] text-text-soft px-0.5 mb-1.5">({{ item.category }})</div>
       <div class="card-actions flex justify-center w-full gap-1">

@@ -201,7 +201,7 @@ const categories = [
       v-for="cat in categories" 
       :key="cat.value"
       class="chip 
-        shrink-0 py-1.5 px-4 rounded-full border-[1.5px] border-primary bg-card-bg text-primary cursor-pointer text-[0.9rem] transition-all duration-300
+        shrink-0 py-1.5 px-4 rounded-full border-[1.5px] border-primary bg-card-bg text-text-soft cursor-pointer text-[0.9rem] transition-all duration-300
         hover:bg-primary hover:text-primary-soft hover:-translate-y-[2px]
         [&.active]:bg-primary-dark [&.active]:text-white [&.active]:shadow-[0_4px_8px_rgba(162,210,255,0.4)] [&.active]:scale-[0.99]
       "
@@ -234,7 +234,7 @@ const categories = [
       v-for="item in displayedStickers" 
       :key="item.id" 
       class="
-        card relative bg-card-bg rounded-md shadow-soft p-4 my-0.5 text-center border-border w-full 
+        card relative bg-card-bg text-text rounded-md shadow-soft p-4 my-0.5 text-center border-border w-full 
         flex flex-col min-h-[128px] justify-between overflow-hidden transition-transform duration-200
         hover:-translate-y-1 hover:border-primary
       "
@@ -242,7 +242,7 @@ const categories = [
       <button @click="favoriteStore.toggleFavorite(item)" class="absolute top-2 right-2 p-1.5 cursor-pointer z-10 transition-transform active:scale-125">
         {{ favoriteStore.isFavorite(item.id) ? '❤️' : '🤍' }}
       </button>
-      <div class="item-title text-[1.1rem] font-semibold leading-normal mb-0.5 line-clamp-1">{{ item.title }}</div>
+      <div class="item-title text-[1.1rem] text-text font-semibold leading-normal mb-0.5 line-clamp-1">{{ item.title }}</div>
       <div class="item-category text-[0.85rem] text-text-soft px-0.5 mb-1.5">({{ item.category }})</div>
       <div class="card-actions flex justify-center w-full gap-1">
         <button class="btn bg-primary-dark text-white shrink-0 rounded-md py-0.5 px-2 cursor-pointer mx-1"><router-link :to="`/sticker/${item.id}`">查看詳細</router-link></button>

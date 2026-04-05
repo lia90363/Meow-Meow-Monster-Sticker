@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onUnmounted } from 'vue'
+import { computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useFavoriteStore } from '@/stores/favoriteStore'
 import { useHistory } from '../composables/useHistory'
@@ -8,7 +8,8 @@ import StickerItem from '@/components/StickerItem.vue'
 
 const route = useRoute()
 const favoriteStore = useFavoriteStore()
-const { history, addHistory } = useHistory()
+const historyStore = useHistory()
+const { addHistory } = historyStore
 
 // 強制轉為數字，並使用 computed 確保路由切換時 ID 會更新
 const id = computed(() => Number(route.params.id))
@@ -32,19 +33,25 @@ const stickerInfo = computed(() => {
 });
 
 const recentStickers = computed(() => {
-  return history.value
-    .map(hId => {
-      // 統一轉字串比對，避免 ID 格式不一
-      return mockStickers.find(s => String(s.id) === String(hId));
-    })
-    .filter(s => s && String(s.id) !== String(id.value)) // 這裡會過濾掉當前頁面的貼圖
+  // 使用 historyStore.history 確保響應式
+  return historyStore.history.value
+    .map(hId => mockStickers.find(s => String(s.id) === String(hId)))
+    .filter(s => s && String(s.id) !== String(id.value))
     .slice(0, 5);
 });
 
-onUnmounted(() => {
+// 進入頁面就存入歷史紀錄
+const updateHistory = () => {
   if (id.value) {
     addHistory(id.value)
   }
+}
+
+onMounted(updateHistory)
+
+// 當路由切換也觸發更新
+watch(() => id.value, () => {
+  updateHistory()
 })
 </script>
 
@@ -54,8 +61,8 @@ onUnmounted(() => {
     載入中或找不到貼圖...
   </div>
 
-  <ul v-else class="flex justify-center w-full">
-    <li class="detail grid bg-card-bg rounded-md shadow-soft p-6 border-border transition-transform mx-6 my-4 sm:max-w-4xl sm:my-12 text-center">
+  <ul v-else class="flex justify-center w-full mt-5 sm:mt-2">
+    <li class="detail grid bg-card-bg rounded-md shadow-soft p-8 border-border transition-transform mx-6 my-4 sm:max-w-4xl sm:my-12 text-center">
       <div class="item-detail text-3xl font-semibold sm:m-4 m-2">{{ sticker.title }}</div>
       <p class="text-center">貼圖在 LV.{{ stickerInfo.lv }} 的第 {{ stickerInfo.idx }} 張</p>
       
@@ -73,7 +80,7 @@ onUnmounted(() => {
           <span class="h-[1px] w-8 bg-gray-200"></span>
         </h3>
         <div class="flex justify-center px-4 mt-4">
-          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-4 w-fit mx-auto px-4 mb-3">
+          <div class="flex flex-wrap justify-center gap-x-6 gap-y-4 w-full max-w-4xl mx-auto px-4 mb-3">
             <router-link 
               v-for="(item, index) in recentStickers" 
               :key="item.id" 

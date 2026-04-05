@@ -35,7 +35,7 @@ async function retryWithBackoff(fn, retries = 3) {
       return await fn()
     } catch (err) {
       if (i === retries - 1) throw err // 最後一次失敗才拋出
-      console.warn(`請求失敗，第 ${i + 1} 次重試...`)
+      console.warn(`請求失敗，第 ${i + 1} 次重試...`, err.message || err)
       await delay(delayTime)
       delayTime *= 2 // 每次重試等更久 (500ms -> 1000ms)
     }
@@ -52,7 +52,8 @@ async function revalidate() {
     await delay() // 模擬網路延遲
 
     // 模擬錯誤機率
-    if (Math.random() < 0.3) {
+    if (Math.random() < 0.05) {
+      console.log('🧪模擬觸發隨機 API 失敗');
       throw new Error('Mock API error')
     }
 
