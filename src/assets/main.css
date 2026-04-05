@@ -9,7 +9,6 @@
   --color-text-soft: #3a3a3a;
   --color-bg: #f8f7ff;
   --color-card-bg: #ffffff;
-  --color-border: #d2deeb;
 
   /* v4 會自動對應到 rounded-sm, rounded-md */
   --radius-sm: 8px;

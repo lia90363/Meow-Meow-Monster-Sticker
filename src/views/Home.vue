@@ -228,25 +228,24 @@ const categories = [
   </ul>
 
   <!-- 列表狀態 (加上 v-else-if 確保錯誤時不顯示空列表) -->
-  <ul v-else-if="!stickerStore.error" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-6 p-6 mx-auto max-w-6xl">
+  <ul v-else-if="!stickerStore.error" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-6 p-6 mx-auto max-w-7xl">
     <!-- 關鍵：這裡必須是 filteredStickers，原本使用v-for="item in filteredStickers -->
     <li 
       v-for="item in displayedStickers" 
       :key="item.id" 
       class="
         card relative bg-card-bg text-text rounded-md shadow-soft p-4 my-0.5 text-center border-border w-full 
-        flex flex-col min-h-[128px] justify-between overflow-hidden transition-transform duration-200
+        flex flex-col min-h-32 max-w-90 mx-auto justify-between overflow-hidden transition-transform duration-200
         hover:-translate-y-1 hover:border-primary
       "
     >
-      <button @click="favoriteStore.toggleFavorite(item)" class="absolute top-2 right-2 p-1.5 cursor-pointer z-10 transition-transform active:scale-125">
+      <button @click="favoriteStore.toggleFavorite(item)" class="absolute top-1.5 right-2 p-1.5 cursor-pointer z-10 transition-transform active:scale-125">
         {{ favoriteStore.isFavorite(item.id) ? '❤️' : '🤍' }}
       </button>
-      <div class="item-title text-[1.1rem] text-text font-semibold leading-normal mb-0.5 line-clamp-1">{{ item.title }}</div>
+      <div class="item-title text-[1.1rem] text-text font-semibold leading-normal mb-0.5 mt-4 mx-2 line-clamp-1">{{ item.title }}</div>
       <div class="item-category text-[0.85rem] text-text-soft px-0.5 mb-1.5">({{ item.category }})</div>
       <div class="card-actions flex justify-center w-full gap-1">
-        <button class="btn bg-primary-dark text-white shrink-0 rounded-md py-0.5 px-2 cursor-pointer mx-1"><router-link :to="`/sticker/${item.id}`">查看詳細</router-link></button>
-
+        <button class="btn bg-primary-dark text-white shrink-0 rounded-md py-0.5 px-2 mb-4 cursor-pointer mx-1"><router-link :to="`/sticker/${item.id}`">查看詳細</router-link></button>
       </div>
     </li>
   </ul>
