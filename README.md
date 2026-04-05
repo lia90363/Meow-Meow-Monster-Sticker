@@ -16,24 +16,24 @@
 <img width="396" height="757" alt="image" src="https://github.com/user-attachments/assets/31a26392-68be-4160-93bc-a1872950313d" />
 
 ### 🛠 使用技術  
-Vue 3：作為前端框架，使用 Composition API 開發  
-Pinia：集中管理貼圖資料、收藏與歷史紀錄狀態  
-Vue Router：處理頁面切換與路由邏輯  
-Git：加強版本控制，練習流程與慣例  
-Mock API：模擬後端資料來源，建立完整資料流  
-Debounce：優化搜尋體驗，避免頻繁請求  
-Intersection Observer：實作無限滾動（load more）  
-LocalStorage（Persist）：保存使用者收藏與歷史紀錄  
-Tailwind：樣式與架構，封裝設計系統(Config)  
-RWD：響應式設計，確保不同裝置皆能維持最佳的排版  
-Vercel：串接 GitHub 實作 CI/CD 工作流，自動化部署專案  
+- Vue 3：作為前端框架，使用 Composition API 開發  
+- Pinia：集中管理貼圖資料、收藏與歷史紀錄狀態  
+- Vue Router：處理頁面切換與路由邏輯  
+- Git：加強版本控制，練習流程與慣例  
+- Mock API：模擬後端資料來源，建立完整資料流  
+- Debounce：優化搜尋體驗，避免頻繁請求  
+- Intersection Observer：實作無限滾動（load more）  
+- LocalStorage（Persist）：保存使用者收藏與歷史紀錄  
+- Tailwind：樣式與架構，封裝設計系統(Config)  
+- RWD：響應式設計，確保不同裝置皆能維持最佳的排版  
+- Vercel：串接 GitHub 實作 CI/CD 工作流，自動化部署專案  
 
 ### ✨ 功能亮點  
-- 🔍 **智能搜尋**：輸入關鍵字即時篩選，搭配 Debounce 避免頻繁請求。  
-- 🏷️ **標籤分類**：快速切換不同情境的貼圖類別。  
-- ⭐ **收藏系統**：一鍵收藏喜愛貼圖，資料自動儲存於瀏覽器。  
-- 🕘 **瀏覽歷史**：紀錄最近查看過的貼圖，方便回溯。  
-- ♾️ **流暢載入**：實作無限滾動 (Load More)，優化大量圖片載入效能。  
+🔍 **智能搜尋**：輸入關鍵字即時篩選，搭配 Debounce 避免頻繁請求。  
+🏷️ **標籤分類**：快速切換不同情境的貼圖類別。  
+⭐ **收藏系統**：一鍵收藏喜愛貼圖，資料自動儲存於瀏覽器。  
+🕘 **瀏覽歷史**：紀錄最近查看過的貼圖，方便回溯。  
+♾️ **流暢載入**：實作無限滾動 (Load More)，優化大量圖片載入效能。  
 
 ### 💡 核心學習  
 ◇如何規劃前端專案架構（components / store / api 分層）  
