@@ -15948,7 +15948,7 @@ export const mockStickers = [
   {
     id: 6811,
     number: 778465859,
-    title: '想也不可以 想也有最',
+    title: '想也不可以 想也有罪',
     category: 'LV.68 屬性:精神淨化'
   },
   {
