@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --dark-mode: selector('[data-theme="dark"]');
+  --color-primary: #242395;
+  --color-primary-soft: #e1f1fd;
+  --color-primary-dark: #4663ac;
+  --color-text: #2c2c3a;
+  --color-text-soft: #3a3a3a;
+  --color-bg: #f8f7ff;
+  --color-card-bg: #ffffff;
+  --color-border: #d2deeb;
+  --color-nav-bg: #f2f0ff; 
+
+  /* v4 會自動對應到 rounded-sm, rounded-md */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  /* sm:flex, md:grid */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+
+  --grid-template-columns-card-list: repeat(auto-fill, minmax(340px, 1fr));
+}
+
+/* 深色模式切換 */
+[data-theme="dark"] {
+  --color-primary: #a5b4fc;
+  --color-primary-soft: #2e3548;
+  --color-primary-dark: #30498d; 
+  --color-text: #f3f4f6;
+  --color-text-soft: #9ca3af;
+  --color-bg: #0f172a;  
+  --color-card-bg: #1e293b;
+  --color-border: #334155;
+  --color-nav-bg: #1e293b;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-text transition-colors duration-300 antialiased;
+  }
+}
+
+@utility nav-btn {
+  @apply flex items-center shrink-0 rounded-md py-1.5 px-3 font-bold mx-[5px] 
+         no-underline text-white/60 transition-all duration-200;
+
+  &.router-link-active {
+    @apply text-white bg-primary;
+  }
+}
+
+@utility scrollbar-custom {
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar { height: 6px; width: 6px; }
+  &::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full hover:bg-gray-400;
+  }
+  &::-webkit-scrollbar-track { background: transparent; }
+}

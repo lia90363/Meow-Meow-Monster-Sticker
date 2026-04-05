@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/main0.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加入喵喵教!</title>
+    <script> // 防止初次加載閃爍
+      (function() {
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
