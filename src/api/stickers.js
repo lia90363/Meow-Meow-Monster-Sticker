@@ -53,7 +53,7 @@ async function revalidate() {
 
     // 模擬錯誤機率
     if (Math.random() < 0.05) {
-      console.log('🧪模擬觸發隨機 API 失敗');
+      console.log('🧪`模擬觸發隨機 API 失敗');
       throw new Error('Mock API error')
     }
 
