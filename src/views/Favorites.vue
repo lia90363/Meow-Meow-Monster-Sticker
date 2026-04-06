@@ -1,7 +1,10 @@
 <script setup>
 import { useFavoriteStore } from '@/stores/favoriteStore'
+import { mockStickers } from '@/mocks/stickers'
+import StickerItem from '@/components/StickerItem.vue'
 
 const favoriteStore = useFavoriteStore()
+const stickerList = mockStickers; 
 </script>
 
 <template>
@@ -14,12 +17,16 @@ const favoriteStore = useFavoriteStore()
       v-for="item in favoriteStore.favorites" 
       :key="item.id" 
       class="
-        card relative bg-card-bg rounded-md shadow-soft p-4 my-0.5 text-center border-border w-full 
-        flex flex-col min-h-[128px] justify-between overflow-hidden transition-transform duration-200
+        card relative bg-card-bg text-text rounded-md shadow-soft p-4 my-0.5 text-center border-border w-full 
+        flex flex-col min-h-32 max-w-90 mx-auto justify-between overflow-hidden transition-transform duration-200
         hover:-translate-y-1 hover:border-primary
       ">
       <button @click="favoriteStore.toggleFavorite(item)" class="absolute top-2 right-2 p-1.5 cursor-pointer z-10 transition-transform active:scale-125">❤️</button>
-      <div class="item-title text-[1.1rem] font-semibold leading-normal mb-0.5 line-clamp-1">{{ item.title }}</div>
+      <StickerItem 
+        v-if="item.number"
+        :number="item.number" 
+        class="w-32 pt-2 m-auto" 
+      />
       <div class="item-category text-[0.85rem] text-text-soft px-0.5 mb-1.5">({{ item.category }})</div>
       <div class="card-actions flex justify-center w-full gap-1">
         <button class="btn bg-primary-dark text-white shrink-0 rounded-md py-0.5 px-2 cursor-pointer mx-1"><router-link :to="`/sticker/${item.id}`">查看詳細</router-link></button>
