@@ -3,7 +3,6 @@ import { ref, computed, onMounted, onUnmounted, watch, nextTick } from 'vue'
 import { useStickerStore } from '@/stores/stickerStore'
 import { useFavoriteStore } from '@/stores/favoriteStore'
 import { useDebounce } from '@/composables/useDebounce'
-import { mockStickers } from '@/mocks/stickers'
 import StickerItem from '@/components/StickerItem.vue'
 
 const stickerStore = useStickerStore()
@@ -13,7 +12,6 @@ const keyword = ref('')
 const debouncedKeyword = useDebounce(keyword, 300)
 const category = ref('all')
 const chipsContainer = ref(null);
-const stickerList = mockStickers; 
 
 const page = ref(1);
 const perPage = 40;
@@ -213,18 +211,18 @@ const categories = [
     </button>
   </div>
 
-  <!-- loading 時產生假項目，看起來像資料快出來了 -->
-  <ul v-if="stickerStore.loading" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-6 p-6 mx-auto max-w-6xl">
+  <!-- loading 時產生假項目 -->
+  <ul v-if="stickerStore.loading" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-6 p-6 mx-auto max-w-7xl">
     <li v-for="n in 12" :key="n" class="
-      animate-pulse rounded-md p-4 bg-card-bg border border-border 
-      flex flex-col min-h-[128px] justify-between items-center text-center
+      animate-pulse rounded-md p-4 bg-card-bg border border-gray-300 
+      flex flex-col min-h-[128px] max-w-[360px] w-full mx-auto justify-between items-center text-center
     ">
-    <div class="h-5 bg-gray-200 dark:bg-gray-500 rounded w-3/4 mb-2"></div>
-    <div class="h-3 bg-gray-100 dark:bg-gray-600 rounded w-1/3 mb-4"></div>
-    <div class="flex justify-center w-full gap-2 mt-auto">
-      <div class="h-8 bg-gray-200 dark:bg-gray-500 rounded w-24"></div> 
-      <div class="h-8 bg-gray-200 dark:bg-gray-500 rounded w-10"></div>
-    </div>
+      <div class="absolute top-2.5 right-3 h-5 w-5 bg-gray-200 dark:bg-gray-600 rounded-full"></div>
+      <div class="w-32 h-20 bg-gray-200 dark:bg-gray-600 rounded-md mt-2 mb-3"></div>
+      <div class="h-3 bg-gray-100 dark:bg-gray-700 rounded w-1/4 mb-4"></div>
+      <div class="flex justify-center w-full mt-auto">
+        <div class="h-8 bg-gray-200 dark:bg-gray-600 rounded-md w-24"></div> 
+      </div>
     </li>
   </ul>
 
@@ -235,7 +233,7 @@ const categories = [
       v-for="item in displayedStickers" 
       :key="item.id" 
       class="
-        card relative bg-card-bg text-text rounded-md shadow-soft p-4 my-0.5 text-center border-border w-full 
+        card relative bg-card-bg text-text rounded-md shadow-soft p-4 my-0.5 text-center w-full 
         flex flex-col min-h-32 max-w-90 mx-auto justify-between overflow-hidden transition-transform duration-200
         hover:-translate-y-1 hover:border-primary
       "
@@ -250,7 +248,12 @@ const categories = [
       />
       <div class="item-category text-[0.85rem] text-text-soft px-0.5 mb-1.5">({{ item.category }})</div>
       <div class="card-actions flex justify-center w-full gap-1">
-        <button class="btn bg-primary-dark text-white shrink-0 rounded-md py-0.5 px-2 mb-4 cursor-pointer mx-1"><router-link :to="`/sticker/${item.id}`">查看詳細</router-link></button>
+        <router-link 
+          :to="`/sticker/${item.id}`" 
+          class="btn bg-primary-dark text-white shrink-0 rounded-md py-1 px-4 cursor-pointer m-1 text-sm"
+        >
+          查看詳細
+        </router-link>
       </div>
     </li>
   </ul>
