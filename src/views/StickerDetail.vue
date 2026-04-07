@@ -66,14 +66,14 @@ watch(() => id.value, () => {
       <div class="item-detail text-3xl font-semibold sm:m-4 m-2">{{ sticker.title }}</div>
       <p class="text-center">貼圖在 LV.{{ stickerInfo.lv }} 的第 {{ stickerInfo.idx }} 張</p>
       
-      <StickerItem :number="sticker.number" class="m-auto p-2 my-2 sm:mb-5"/>
+      <StickerItem :number="sticker.number" class="m-auto p-2 my-2 sm:mb-5 drop-shadow-[0_0_3px_#fff]"/>
 
       <button @click="favoriteStore.toggleFavorite(sticker)" class="btn shrink-0 cursor-pointer">
         {{ favoriteStore.isFavorite(sticker.id) ? '💖' : '🤍' }}
       </button>
 
       <!-- 最近查看區塊 -->
-      <div v-if="recentStickers.length > 0" class="history sm:mt-8 mt-4 border-t pt-4">
+      <div v-if="recentStickers.length > 0" class="history sm:mt-8 border-t pt-4">
         <h3 class="flex items-center justify-center gap-2 mt-2 font-bold text-gray-400 text-xs uppercase tracking-widest">
           <span class="h-[1px] w-8 bg-gray-200"></span>
             最近查看過的貼圖
@@ -90,7 +90,7 @@ watch(() => id.value, () => {
                 'hidden lg:block': index >= 2
               }"
             >
-              <StickerItem :number="item.number || item.id" is-thumbnail class="w-24 md:w-32 object-contain"/>
+              <StickerItem :number="item.number || item.id" is-thumbnail class="w-24 md:w-32 drop-shadow-[0_0_3px_#fff]"/>
             </router-link>
           </div>
         </div>

@@ -127,7 +127,7 @@ const categories = [
   { label: '欲擒故縱', value: 'LV.22 欲擒故縱' },
   { label: '上班', value: 'LV.23 上班' },
   { label: '酒精', value: 'LV.24 含酒精成分' },
-  { label: '吃貨', value: 'LV.25 屬性:吃貨' },
+  { label: '吃貨', value: 'LV.25 吃貨' },
   { label: '通靈', value: 'LV.26 通靈' },
   { label: '恐怖情人', value: 'LV.27 恐怖情人' },
   { label: '被被', value: 'LV.28 內含被被' },
@@ -212,10 +212,10 @@ const categories = [
   </div>
 
   <!-- loading 時產生假項目 -->
-  <ul v-if="stickerStore.loading" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-6 p-6 mx-auto max-w-7xl">
+  <ul v-if="stickerStore.loading" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-6 p-6 mx-auto max-w-6xl">
     <li v-for="n in 12" :key="n" class="
       animate-pulse rounded-md p-4 bg-card-bg border border-gray-300 
-      flex flex-col min-h-[128px] max-w-[360px] w-full mx-auto justify-between items-center text-center
+      flex flex-col max-w-60 w-full mx-auto justify-between items-center text-center
     ">
       <div class="absolute top-2.5 right-3 h-5 w-5 bg-gray-200 dark:bg-gray-600 rounded-full"></div>
       <div class="w-32 h-20 bg-gray-200 dark:bg-gray-600 rounded-md mt-2 mb-3"></div>
@@ -227,26 +227,26 @@ const categories = [
   </ul>
 
   <!-- 列表狀態 (加上 v-else-if 確保錯誤時不顯示空列表) -->
-  <ul v-else-if="!stickerStore.error" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-6 p-6 mx-auto max-w-7xl">
+  <ul v-else-if="!stickerStore.error" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-6 p-6 mx-auto max-w-6xl">
     <!-- 關鍵：這裡必須是 filteredStickers，原本使用v-for="item in filteredStickers -->
     <li 
       v-for="item in displayedStickers" 
       :key="item.id" 
       class="
-        card relative bg-card-bg text-text rounded-md shadow-soft p-4 my-0.5 text-center w-full 
-        flex flex-col min-h-32 max-w-90 mx-auto justify-between overflow-hidden transition-transform duration-200
+        card relative bg-card-bg text-text rounded-md shadow-soft p-4 my-0.5 text-center border-border w-full max-w-60
+        flex flex-col mx-auto justify-between overflow-hidden transition-transform duration-200
         hover:-translate-y-1 hover:border-primary
       "
     >
-      <button @click="favoriteStore.toggleFavorite(item)" class="absolute top-1.5 right-2 p-1.5 cursor-pointer z-10 transition-transform active:scale-125">
+      <button @click="favoriteStore.toggleFavorite(item)" class="absolute top-2 right-2 p-1.5 cursor-pointer z-10 transition-transform active:scale-125">
         {{ favoriteStore.isFavorite(item.id) ? '❤️' : '🤍' }}
       </button>
       <StickerItem 
         v-if="item.number"
         :number="item.number" 
-        class="w-32 pt-2 m-auto" 
+        class="w-32 py-2 m-auto drop-shadow-[0_0_3px_#fff]" 
       />
-      <div class="item-category text-[0.85rem] text-text-soft px-0.5 mb-1.5">({{ item.category }})</div>
+      <div class="item-category text-[0.85rem] text-text-soft px-0.5 my-1.5">({{ item.category }})</div>
       <div class="card-actions flex justify-center w-full gap-1">
         <router-link 
           :to="`/sticker/${item.id}`" 
