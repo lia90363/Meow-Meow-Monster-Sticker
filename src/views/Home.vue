@@ -2,14 +2,15 @@
 import { ref, computed, onMounted, onUnmounted, watch, nextTick } from 'vue'
 import { useStickerStore } from '@/stores/stickerStore'
 import { useFavoriteStore } from '@/stores/favoriteStore'
+import { useUiStore } from '@/stores/uiStore'
 import { useDebounce } from '@/composables/useDebounce'
 import StickerItem from '@/components/StickerItem.vue'
 
 const stickerStore = useStickerStore()
 const favoriteStore = useFavoriteStore()
+const uiStore = useUiStore()
 
-const keyword = ref('')
-const debouncedKeyword = useDebounce(keyword, 300)
+const debouncedKeyword = useDebounce(() => stickerStore.keyword, 300)
 const category = ref('all')
 const chipsContainer = ref(null);
 
@@ -21,6 +22,7 @@ let observer = null;
 
 onMounted(async () => {
   await stickerStore.loadStickers();
+
   await nextTick(); // 確保畫面上的 <li> 都排好了
   setupObserver();
 
@@ -40,7 +42,9 @@ const setupObserver = () => {
   if (!loadMoreTrigger.value) return; // 檢查 DOM 是否真的存在
 
   observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting && displayedStickers.value.length < filteredStickers.value.length) {
+    if (entries[0].isIntersecting && 
+        !stickerStore.loading && 
+        displayedStickers.value.length < filteredStickers.value.length) {
       page.value++; 
     }
   }, { 
@@ -78,14 +82,16 @@ const filterByTag = (tag) => {
 const filteredStickers = computed(() => {
   if (!stickerStore.stickers) return [];
 
-  const lowerKeyword = debouncedKeyword.value.trim().toLowerCase();
+  const lowerKeyword = (debouncedKeyword.value || '').trim().toLowerCase();
   const currentCategory = category.value; 
+
+  const keywords = lowerKeyword.split(/\s+/).filter(word => word);
 
   return stickerStore.stickers.filter(item => {
     // 同時比對 title 和 category
-    const matchesKeyword = lowerKeyword.split(/\s+/).every(word => 
-      item.title.toLowerCase().includes(word) || 
-      item.category.toLowerCase().includes(word)
+    const matchesKeyword = keywords.length === 0 || keywords.every(word => 
+      (item.title && item.title.toLowerCase().includes(word)) || 
+      (item.category && item.category.toLowerCase().includes(word))
     );
 
     // 類別標籤比對
@@ -179,22 +185,9 @@ const categories = [
   { label: '獨角獸', value: 'LV.74 屬性:獨角獸寶寶' },
   { label: '遊戲No.3', value: 'LV.75 屬性:遊戲' },
 ];
-
 </script>
 
 <template>
-  <Teleport to="#nav-search-target">
-    <!-- 搜尋框 -->
-    <input v-model="keyword" placeholder="搜尋貼圖..." class="rounded-lg bg-white/10 border border-white/20 text-white placeholder:text-white/50 py-1 px-4 w-full focus:ring-2 focus:ring-primary outline-none"/>
-
-    <!-- 分類篩選 
-    <select v-model="category" class="select-blue">
-      <option v-for="cat in categories" :key="cat.value" :value="cat.value">
-        {{ cat.label }}
-      </option>
-    </select>-->
-  </Teleport>
-
   <div ref="chipsContainer" class="flex overflow-x-auto gap-2 py-4 px-2 scrollbar-custom">
     <button 
       v-for="cat in categories" 
@@ -227,16 +220,25 @@ const categories = [
   </ul>
 
   <!-- 列表狀態 (加上 v-else-if 確保錯誤時不顯示空列表) -->
-  <ul v-else-if="!stickerStore.error" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-10 gap-y-6 p-6 mx-auto max-w-6xl">
-    <!-- 關鍵：這裡必須是 filteredStickers，原本使用v-for="item in filteredStickers -->
+  <ul 
+    v-else-if="!stickerStore.error" 
+    class="grid gap-x-4 gap-y-6 p-6 mx-auto max-w-6xl transition-all duration-300"
+    :class="{
+      // 手機版根據模式切換，電腦版（sm 以上）維持固定 4 列
+      'grid-cols-1': uiStore.displayMode === 'single',
+      'grid-cols-2': uiStore.displayMode === 'grid',
+      'sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4': true
+    }"
+  >
     <li 
       v-for="item in displayedStickers" 
       :key="item.id" 
       class="
-        card relative bg-card-bg text-text rounded-md shadow-soft p-4 my-0.5 text-center border-border w-full max-w-60
+        card relative bg-card-bg text-text rounded-md shadow-soft text-center border-border w-full max-w-60
         flex flex-col mx-auto justify-between overflow-hidden transition-transform duration-200
         hover:-translate-y-1 hover:border-primary
       "
+      :class="uiStore.displayMode === 'grid' ? 'p-2' : 'p-4 my-0.5'" 
     >
       <button @click="favoriteStore.toggleFavorite(item)" class="absolute top-2 right-2 p-1.5 cursor-pointer z-10 transition-transform active:scale-125">
         {{ favoriteStore.isFavorite(item.id) ? '❤️' : '🤍' }}
@@ -244,13 +246,20 @@ const categories = [
       <StickerItem 
         v-if="item.number"
         :number="item.number" 
-        class="w-32 py-2 m-auto drop-shadow-[0_0_3px_#fff]" 
+        class="m-auto drop-shadow-[0_0_3px_#fff]" 
+        :class="uiStore.displayMode === 'grid' ? 'w-28 pt-2' : 'w-32 my-2'" 
       />
-      <div class="item-category text-[0.85rem] text-text-soft px-0.5 my-1.5">({{ item.category }})</div>
+      <div 
+        v-if="uiStore.displayMode !== 'grid'" 
+        class="item-category text-[0.85rem] text-text-soft px-0.5 my-1.5"
+      >
+        ({{ item.category }})
+      </div>
       <div class="card-actions flex justify-center w-full gap-1">
         <router-link 
           :to="`/sticker/${item.id}`" 
-          class="btn bg-primary-dark text-white shrink-0 rounded-md py-1 px-4 cursor-pointer m-1 text-sm"
+          class="btn bg-primary-dark text-white shrink-0 rounded-md py-1 px-4 cursor-pointer text-sm"
+          :class="uiStore.displayMode === 'grid' ? 'm-0' : 'm-1'" 
         >
           查看詳細
         </router-link>

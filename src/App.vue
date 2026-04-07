@@ -15,13 +15,27 @@
         </span>
       </router-link>
       
-      <div class="theme-switch" @click="toggleTheme">
-        <div class="switch-handle">
-          <span v-if="theme === 'light'" class="icon mx-3">☀️</span>
-          <span v-else class="icon mx-3">🌙</span>
-        </div>
+      <div class="theme-switch cursor-pointer items-center justify-center ml-2" @click="uiStore.toggleTheme">
+        <span class="text-xl">{{ uiStore.theme === 'light' ? '☀️' : '🌙' }}</span>
       </div>
-      <div id="nav-search-target" class="ml-auto flex items-center"></div>
+
+
+      <button 
+        @click="uiStore.toggleDisplayMode" 
+        class="
+          sm:hidden p-2 mx-2 rounded-lg transition-all active:scale-90
+          bg-white/20 hover:bg-white/30
+          flex items-center justify-center
+        "
+      >
+        <LayoutGrid v-if="uiStore.displayMode === 'single'" :size="20" class="text-white" />
+        <Square v-else :size="20" class="text-white" />
+      </button>
+
+
+      <div id="nav-search-target" class="ml-auto flex items-center">
+        <input v-model="stickerStore.keyword" placeholder="搜尋貼圖..." class="rounded-lg bg-white/10 border border-white/20 text-white placeholder:text-white/50 py-1 px-4 w-full focus:ring-2 focus:ring-primary outline-none"/>
+      </div>
     </nav>
 
     <main class="flex-grow">
@@ -37,25 +51,21 @@
 </template>
 
 <script setup>
-import { ref, watchEffect, computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useFavoriteStore } from '@/stores/favoriteStore'
-
-// 初始化時先從 LocalStorage 抓取，如果沒有就預設 'light'
-const theme = ref(localStorage.getItem('theme') || 'light')
+import { useStickerStore } from '@/stores/stickerStore'
+import { useUiStore } from '@/stores/uiStore'
+import { Square, LayoutGrid } from 'lucide-vue-next'
 
 const favoriteStore = useFavoriteStore()
+const stickerStore = useStickerStore()
+const uiStore = useUiStore()
 
 const favoriteCount = computed(() =>
   favoriteStore.favorites.length
 ) 
 
-const toggleTheme = () => {
-  theme.value = theme.value === 'light' ? 'dark' : 'light';
-}
-
-watchEffect(() => {
-  // 當 theme 改變時，同時更新 DOM 屬性和 LocalStorage
-  document.documentElement.setAttribute('data-theme', theme.value)
-  localStorage.setItem('theme', theme.value)
+onMounted(() => {
+  uiStore.applyTheme() // 初始載入時套用主題
 })
 </script>

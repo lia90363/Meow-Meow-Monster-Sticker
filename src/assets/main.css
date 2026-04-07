@@ -26,7 +26,7 @@
 }
 
 /* 深色模式切換 */
-[data-theme="dark"] {
+html[data-theme="dark"] {
   --color-primary: #4b61ce;
   --color-primary-soft: #2e3548;
   --color-primary-dark: #20305a; 
@@ -43,7 +43,7 @@
 }
 
 @utility nav-btn {
-  @apply flex items-center shrink-0 rounded-md py-1.5 px-3 font-bold mx-[5px] 
+  @apply flex items-center shrink-0 rounded-md py-1.5 px-3 font-bold mx-0.5 sm:mx-1
          no-underline text-white/60 transition-all duration-200;
 
   &.router-link-active {

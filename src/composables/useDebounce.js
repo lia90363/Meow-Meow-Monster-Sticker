@@ -1,21 +1,23 @@
-import { ref, watch, onUnmounted } from 'vue'
+import { ref, watch, onUnmounted, isRef } from 'vue'
 
-// debounce composable  輸入中…（不請求） 停下來 → 才更新
-export function useDebounce(sourceRef, delay = 300) {
-  const debounced = ref(sourceRef.value)
+export function useDebounce(source, delay = 300) {
+  // 確保初始值至少是空字串，避免 .trim() 報錯
+  const initialValue = isRef(source) ? source.value : (typeof source === 'function' ? source() : source);
+  const debounced = ref(initialValue || '') 
+  
   let timer = null
 
-  watch(sourceRef, (newVal) => {
-    clearTimeout(timer)
+  // 使用 getter function 來監聽，這樣可以追蹤 store 的 property
+  watch(() => (isRef(source) ? source.value : (typeof source === 'function' ? source() : source)), 
+    (newVal) => {
+      clearTimeout(timer)
+      timer = setTimeout(() => {
+        debounced.value = newVal
+      }, delay)
+    }
+  )
 
-    timer = setTimeout(() => {
-      debounced.value = newVal
-    }, delay)
-  })
-
-  onUnmounted(() => {
-    clearTimeout(timer)
-  })
+  onUnmounted(() => clearTimeout(timer))
 
   return debounced
 }

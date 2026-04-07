@@ -9,7 +9,8 @@ export const useStickerStore = defineStore('sticker', {
     loading: false,
     error: null,
     requestPromise: null,
-    lastFetched: 0
+    lastFetched: 0,
+    keyword: ''
   }),
 
   actions: {  
@@ -26,7 +27,7 @@ export const useStickerStore = defineStore('sticker', {
       this.loading = true;
       this.requestPromise = (async () => {
         try {
-          // 3. 直接呼叫 API，它會自己 retry
+          // 直接呼叫 API，它會自己 retry
           this.stickers = await fetchStickers({ force });
           this.lastFetched = Date.now();
         } catch (err) {
