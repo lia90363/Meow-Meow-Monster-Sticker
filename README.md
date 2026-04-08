@@ -51,9 +51,12 @@
 ◇使用 Vercel 體驗從開發到部署的流程  
   
 ### 架構說明  
-src/
-  ├─ components/   # UI 元件  
-  ├─ views/        # 頁面  
-  ├─ stores/       # Pinia 狀態管理  
-  ├─ router/       # 路由設定  
+src/  
   ├─ api/          # API 邏輯統一管理  
+  ├─ components/   # UI 元件  
+  ├─ composables/  # Debounce  
+  ├─ mocks/        # 模擬API  
+  ├─ router/       # 路由設定  
+  ├─ stores/       # Pinia 狀態管理  
+  ├─ views/        # 頁面  
+  
