@@ -184,11 +184,11 @@ const categories = [
   { label: '節日精神', value: 'LV.73 屬性:節日精神' },
   { label: '獨角獸', value: 'LV.74 屬性:獨角獸寶寶' },
   { label: '遊戲No.3', value: 'LV.75 屬性:遊戲' },
-  { label: '狗狗No.3', value: 'LV.76 屬性:狗狗' },
-  { label: '派派', value: 'LV.77 屬性:派派' },
-  { label: '自定義', value: 'LV.78 屬性:自定義' },
-  { label: '兔兔No.2', value: 'LV.79 屬性:兔兔' },
-  { label: '狗狗No.4', value: 'LV.80 屬性:狗狗' }
+  { label: '狗狗No.3', value: 'LV.76 狗狗' },
+  { label: '派派', value: 'LV.77 派派' },
+  { label: '自定義', value: 'LV.78 自定義' },
+  { label: '兔兔No.2', value: 'LV.79 兔兔' },
+  { label: '狗狗No.4', value: 'LV.80 狗狗' }
 ];
 </script>
 
