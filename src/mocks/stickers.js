@@ -10657,241 +10657,241 @@ export const mockStickers = [
     id: 4601,
     number: 573397222,
     title: '(聽話)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4602,
     number: 573397223,
     title: '(快點誇獎我)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4603,
     number: 573397224,
     title: '我可以聞你屁屁嗎',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4604,
     number: 573397225,
     title: '你要聞我的嗎',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4605,
     number: 573397226,
     title: '?',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4606,
     number: 573397227,
     title: '動作：躺著發抖',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4607,
     number: 573397228,
     title: '啊?',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4608,
     number: 573397229,
     title: '為什麼...',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4609,
     number: 573397230,
     title: '我要舔你!',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4610,
     number: 573397231,
     title: '我要摸摸',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4611,
     number: 573397232,
     title: '(摸摸頭)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4612,
     number: 573397233,
     title: '來~握手手',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4613,
     number: 573397234,
     title: '誰是乖狗勾呀',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4614,
     number: 573397235,
     title: '沒錯!就是你~',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4615,
     number: 573397236,
     title: '(難以入眠)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4616,
     number: 573397237,
     title: '(驚醒)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4617,
     number: 573397238,
     title: '我回來了~',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4618,
     number: 573397239,
     title: '歡回!!!',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4619,
     number: 573397240,
     title: '(跟著)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4620,
     number: 573397241,
     title: '(貼住)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4621,
     number: 573397242,
     title: '理我!!!!',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4622,
     number: 573397243,
     title: '回籠子去!',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4623,
     number: 573397244,
     title: '放手吧!',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4624,
     number: 573397245,
     title: '不!!!!!',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4625,
     number: 573397246,
     title: '我想你了...',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4626,
     number: 573397247,
     title: '我在等你呀~',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4627,
     number: 573397248,
     title: '(盯)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4628,
     number: 573397249,
     title: '(悄悄地)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4629,
     number: 573397250,
     title: '(緊張)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4630,
     number: 573397251,
     title: '(警戒)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4631,
     number: 573397252,
     title: '(躲起來)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4632,
     number: 573397253,
     title: '(營業疲勞)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4633,
     number: 573397254,
     title: '汪!',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4634,
     number: 573397255,
     title: '來了!',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4635,
     number: 573397256,
     title: '(剎車)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4636,
     number: 573397257,
     title: '(全身抗拒)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4637,
     number: 573397258,
     title: '動作：看碗空空',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4638,
     number: 573397259,
     title: '動作：飯呢',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4639,
     number: 573397260,
     title: '(叼來)',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
   {
     id: 4640,
     number: 573397261,
     title: '我去去就回',
-    category: 'LV.46 屬性:狗狗/喵喵'
+    category: 'LV.46 屬性:狗狗'
   },
 
   {
@@ -16130,241 +16130,241 @@ export const mockStickers = [
     id: 6901,
     number: 779529753,
     title: '嘬嘬嘬',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6902,
     number: 779529754,
     title: '動作：可撥',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6903,
     number: 779529755,
     title: '動作：生氣',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6904,
     number: 779529756,
     title: '動作：咬住被子',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6905,
     number: 779529757,
     title: '動作：繞圈圈',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6906,
     number: 779529758,
     title: '動作：躺下',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6907,
     number: 779529759,
     title: '動作：鑽進被窩',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6908,
     number: 779529760,
     title: '動作：裹被被',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6909,
     number: 779529761,
     title: '動作：無助哭泣',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6910,
     number: 779529762,
     title: '動作：探頭',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6911,
     number: 779529763,
     title: '動作：伸手要抱抱',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6912,
     number: 779529764,
     title: '動作：摩擦',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6913,
     number: 779529765,
     title: '動作：orz',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6914,
     number: 779529766,
     title: '動作：你休想',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6915,
     number: 779529767,
     title: '(選擇性失聰)',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6916,
     number: 779529768,
     title: '(偷聽)',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6917,
     number: 779529769,
     title: '動作：回頭看',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6918,
     number: 779529770,
     title: '你可憐他一下',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6919,
     number: 779529771,
     title: '動作：皺眉',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6920,
     number: 779529772,
     title: '(嘆氣)',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6921,
     number: 779529773,
     title: '動作：吃餅乾(狗糧)',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6922,
     number: 779529774,
     title: '動作：搖尾巴',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6923,
     number: 779529775,
     title: '*安撫',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6924,
     number: 779529776,
     title: '動作：起飛',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6925,
     number: 779529777,
     title: '動作：抱寶寶',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6926,
     number: 779529778,
     title: '動作：趴下發抖',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6927,
     number: 779529779,
     title: '動作：坐著發抖',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6928,
     number: 779529780,
     title: '動作：摸摸頭',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6929,
     number: 779529781,
     title: '動作：想要摸摸頭',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6930,
     number: 779529782,
     title: '動作：舉白旗',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6931,
     number: 779529783,
     title: '動作：側躺',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6932,
     number: 779529784,
     title: '動作：落湯雞',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6933,
     number: 779529785,
     title: '動作：毛澎澎',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6934,
     number: 779529786,
     title: '動作：吹好頭髮移動',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6935,
     number: 779529787,
     title: '(毛絨絨)',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6936,
     number: 779529788,
     title: '安',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6937,
     number: 779529789,
     title: '路上小心',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6938,
     number: 779529790,
     title: '路上小心(冬)',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6939,
     number: 779529791,
     title: '路上小心(雨)',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
   {
     id: 6940,
     number: 779529792,
     title: '路上小心(風雨)',
-    category: 'LV.69 屬性:狗狗/喵喵'
+    category: 'LV.69 屬性:狗狗'
   },
 
   {
@@ -17815,1201 +17815,1201 @@ export const mockStickers = [
   {
     id: '7601',
     number: 828016993,
-    title: '狗狗打招呼(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：打招呼',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7602',
     number: 828016994,
-    title: '狗狗困擾(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：困擾',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7603',
     number: 828016995,
-    title: '理我(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：理我',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7604',
     number: 828016996,
-    title: '狗狗失落(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：失落',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7605',
     number: 828016997,
-    title: '狗狗拿骨頭指責(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：拿骨頭指責',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7606',
     number: 828016998,
-    title: '狗狗鑽被窩(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗鑽被窩',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7607',
     number: 828016999,
-    title: '狗狗趴睡(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗趴睡',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7608',
     number: 828017000,
-    title: '狗狗說嗨(附荷包蛋)(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗說嗨(附荷包蛋)',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7609',
     number: 828017001,
-    title: '狗狗害羞(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗害羞',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7610',
     number: 828017002,
     title: '出門啦!',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7611',
     number: 828017003,
-    title: '狗狗哭泣找安慰(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗哭泣找安慰',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7612',
     number: 828017004,
-    title: '狗狗抱住(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗抱住',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7613',
     number: 828017005,
-    title: '威脅狗狗(附報紙)(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：威脅狗狗(附報紙)',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7614',
     number: 828017006,
-    title: '*啪*啪*啪(附報紙)(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：*啪*啪*啪(附報紙)',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7615',
     number: 828017007,
-    title: '狗狗瞇眼(附網球)(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗瞇眼(附網球)',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7616',
     number: 828017008,
     title: '(不聽)',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7617',
     number: 828017009,
-    title: '狗狗做表面(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗做表面',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7618',
     number: 828017010,
     title: '(失去精神)',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7619',
     number: 828017011,
-    title: '狗狗不好意思(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗不好意思',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7620',
     number: 828017012,
-    title: '狗狗戴眼鏡坐電腦桌(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗戴眼鏡坐電腦桌',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7621',
     number: 828017013,
-    title: '狗狗想太空(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗想太空',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7622',
     number: 828017014,
-    title: '狗狗比讚(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗比讚',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7623',
     number: 828017015,
-    title: '狗狗比雙讚',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗比雙讚',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7624',
     number: 828017016,
-    title: '狗狗搖尾巴等待(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗搖尾巴等待',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7625',
     number: 828017017,
     title: '(遮眼)',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7626',
     number: 828017018,
     title: '(偷看)',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7627',
     number: 828017019,
     title: '啊!啊!',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   { 
     id: '7628', 
     number: 828017020, 
     title: '*抓住', 
-    category: 'LV.76 狗狗' 
+    category: 'LV.76 屬性:狗狗' 
   },
   {
     id: '7629',
     number: 828017021,
-    title: '狗狗握手(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗握手',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7630',
     number: 828017022,
-    title: '狗狗可憐(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗可憐',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7631',
     number: 828017023,
-    title: '狗狗被咖啡倒灌(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗被咖啡倒灌',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7632',
     number: 828017024,
     title: '(小狗躺下)',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7633',
     number: 828017025,
     title: '不要(附按鈕)',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7634',
     number: 828017026,
-    title: '狗狗嫌棄(附拖鞋)(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗嫌棄(附拖鞋)',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7635',
     number: 828017027,
-    title: '狗狗躺枕頭(附毛毛)(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗躺枕頭(附毛毛)',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7636',
     number: 828017028,
     title: '不要再說了',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7637',
     number: 828017029,
-    title: '狗狗心理嫌棄(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗心理嫌棄',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7638',
     number: 828017030,
     title: '你要去哪',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7639',
     number: 828017031,
     title: '你跟誰出去',
-    category: 'LV.76 狗狗'
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7640',
     number: 828017032,
-    title: '狗狗綁架喵喵怪抱緊(動作)',
-    category: 'LV.76 狗狗'
+    title: '動作：狗狗綁架喵喵怪抱緊',
+    category: 'LV.76 屬性:狗狗'
   },
   {
     id: '7701',
     number: 840953121,
     title: '我來或害人了',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7702',
     number: 840953122,
     title: '哈哈我先走了',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7703',
     number: 840953123,
     title: '這好難喔',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7704',
     number: 840953124,
     title: '我上輩子做了什麼壞事',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7705',
     number: 840953125,
     title: '你上輩子做了什麼壞事',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7706',
     number: 840953126,
     title: '你是抓不到我的',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7707',
     number: 840953127,
     title: '你有什麼要說的嗎',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7708',
     number: 840953128,
     title: '好了不要拍了',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7709',
     number: 840953129,
     title: '欸欸繼續走',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7710',
     number: 840953130,
     title: '把它引導到正道吧',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7711',
     number: 840953131,
     title: '他只是未開智而已',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7712',
     number: 840953132,
     title: '好扭曲的心',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7713',
     number: 840953133,
     title: '有1.4了(有一點死了)',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7714',
     number: 840953134,
     title: '得替自己辯解兩句',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7715',
     number: 840953135,
     title: '欸這隻超派欸',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7716',
     number: 840953136,
     title: '五告派捏',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7717',
     number: 840953137,
     title: '他平常不是這樣子的',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7718',
     number: 840953138,
     title: '是這樣沒錯但不是這樣',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7719',
     number: 840953139,
     title: '不能在消費我了',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   { 
     id: '7720', 
     number: 840953140, 
     title: 'YA', 
-    category: 'LV.77 派派' 
+    category: 'LV.77 屬性:派派' 
   },
   {
     id: '7721',
     number: 840953141,
     title: '我要找一車喵喵怪弄你',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7722',
     number: 840953142,
     title: '一車喵喵怪',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7723',
     number: 840953143,
-    title: '咬住喵貓怪(動作)',
-    category: 'LV.77 派派'
+    title: '動作：咬住喵貓怪',
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7724',
     number: 840953144,
-    title: '叼走喵喵怪(動作)',
-    category: 'LV.77 派派'
+    title: '動作：叼走喵喵怪',
+    category: 'LV.77 屬性:派派'
   },
   { 
     id: '7725', 
     number: 840953145, 
     title: '不可以', 
-    category: 'LV.77 派派' 
+    category: 'LV.77 屬性:派派' 
   },
   {
     id: '7726',
     number: 840953146,
-    title: '打架(動作)',
-    category: 'LV.77 派派'
+    title: '動作：打架',
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7727',
     number: 840953147,
-    title: '拉開膠帶(動作)',
-    category: 'LV.77 派派'
+    title: '動作：拉開膠帶',
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7728',
     number: 840953148,
-    title: '膠帶綑綁(動作)',
-    category: 'LV.77 派派'
+    title: '動作：膠帶綑綁',
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7729',
     number: 840953149,
     title: '我還可以!',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7730',
     number: 840953150,
     title: '我在移動了...',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7731',
     number: 840953151,
     title: '這是我的奴僕',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7732',
     number: 840953152,
-    title: '被蓋布袋(附三角錐)(動作)',
-    category: 'LV.77 派派'
+    title: '動作：被蓋布袋(附三角錐)',
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7733',
     number: 840953153,
     title: '不行你不行',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7734',
     number: 840953154,
     title: '(被罵到變形)',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   { 
     id: '7735', 
     number: 840953155, 
     title: '動腦啊', 
-    category: 'LV.77 派派' 
+    category: 'LV.77 屬性:派派' 
   },
   {
     id: '7736',
     number: 840953156,
     title: '失去彈性的腦子',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7737',
     number: 840953157,
     title: '*遞(附酒精棉片)',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7738',
     number: 840953158,
     title: '(消毒眼球)嘖',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   {
     id: '7739',
     number: 840953159,
     title: '*擦(腦袋)',
-    category: 'LV.77 派派'
+    category: 'LV.77 屬性:派派'
   },
   { 
     id: '7740', 
     number: 840953160, 
     title: '好弱喔', 
-    category: 'LV.77 派派' 
+    category: 'LV.77 屬性:派派' 
   },
   {
     id: '7801',
     number: 857822473,
     title: '那麼扛喔',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7802',
     number: 857822474,
     title: '我現在大腦在哭泣',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7803',
     number: 857822475,
     title: '不能再繼續了',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7804',
     number: 857822476,
     title: '我們的友誼一定會破裂',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7805',
     number: 857822477,
     title: '這個火化後會有舍利子',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7806',
     number: 857822478,
     title: '讓AI出來跟我說話',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7807',
     number: 857822479,
     title: '讓我們拋開世俗眼光',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7808',
     number: 857822480,
     title: '(倒吸一口氣)',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7809',
     number: 857822481,
     title: '都到我手上了就由不得你了',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7810',
     number: 857822482,
     title: '地獄倒楣鬼',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7811',
     number: 857822483,
     title: '可以請你打電話給我的仇家嗎',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7812',
     number: 857822484,
     title: '有接代吵架嗎',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7813',
     number: 857822485,
     title: '阿不然要說什麼',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7814',
     number: 857822486,
     title: '想要什麼你就直說吧',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7815',
     number: 857822487,
     title: '在我氣消以前都是外耗型人格',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7816',
     number: 857822488,
     title: '為什麼說這麼惡毒的話',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7817',
     number: 857822489,
     title: '他在跟你宣戰',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7818',
     number: 857822490,
     title: '你們這群異端',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7819',
     number: 857822491,
     title: '口無遮攔的社會亂源',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7820',
     number: 857822492,
     title: '我貸款也要告你',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7821',
     number: 857822493,
     title: '(眼裡只剩滄桑)',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7822',
     number: 857822494,
     title: '饒了我可憐的靈魂吧',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7823',
     number: 857822495,
     title: '做人不要太好奇',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7824',
     number: 857822496,
     title: '都怕他們私下交流病情',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7825',
     number: 857822497,
     title: '(遇到知音)',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7826',
     number: 857822498,
     title: '好(?)',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7827',
     number: 857822499,
     title: '完了這個不能要了',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7828',
     number: 857822500,
     title: '不知道要說什麼就閉嘴',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7829',
     number: 857822501,
     title: '(在說什麼啊)',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7830',
     number: 857822502,
     title: '(拒絕共感連線)',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7831',
     number: 857822503,
     title: '(訊號發送)',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7832',
     number: 857822504,
     title: '(意念交流)',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7833',
     number: 857822505,
     title: '我看了什麼(動作)',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7834',
     number: 857822506,
     title: '賠我沒看過這個的大腦',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7835',
     number: 857822507,
     title: '你要付我看到這個的錢',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7836',
     number: 857822508,
     title: '被告還有什麼話要陳述?',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7837',
     number: 857822509,
     title: '膝蓋中了一箭',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7838',
     number: 857822510,
     title: '只是路過但好像被罵到',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7839',
     number: 857822511,
     title: '壞掉的AI都不敢這樣講',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7840',
     number: 857822512,
     title: '人類品種越來越多了',
-    category: 'LV.78 自定義'
+    category: 'LV.78 屬性:自定義'
   },
   {
     id: '7901',
     number: 876251913,
     title: '我不要~',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7902',
     number: 876251914,
     title: '要這個!(附蘋果)',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7903',
     number: 876251915,
     title: '哼嗯(附紅蘿蔔)',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7904',
     number: 876251916,
-    title: '兔兔鑽被被(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔鑽被被',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7905',
     number: 876251917,
-    title: '兔兔大爺吃草(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔大爺吃草',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7906',
     number: 876251918,
     title: '兔兔咬金屬盆',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7907',
     number: 876251919,
-    title: '兔兔用金屬盆敲你(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔用金屬盆敲你',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7908',
     number: 876251920,
-    title: '兔兔用屁股坐在你臉上(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔用屁股坐在你臉上',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7909',
     number: 876251921,
-    title: '兔兔拉你臉頰(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔拉你臉頰',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7910',
     number: 876251922,
-    title: '兔兔無力發抖(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔無力發抖',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7911',
     number: 876251923,
-    title: '丟垃圾桶(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：丟垃圾桶',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7912',
     number: 876251924,
-    title: '兔兔咬喵喵怪(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔咬喵喵怪',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7913',
     number: 876251925,
     title: '兔兔鄙視',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   { 
     id: '7914', 
     number: 876251926, 
     title: '好啊', 
-    category: 'LV.79 兔兔' 
+    category: 'LV.79 屬性:兔兔' 
   },
   {
     id: '7915',
     number: 876251927,
-    title: '兔兔報抱枕(附紅蘿蔔)(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔報抱枕(附紅蘿蔔)',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7916',
     number: 876251928,
-    title: '兔兔抱緊緊(附紅蘿蔔)(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔抱緊緊(附紅蘿蔔)',
+    category: 'LV.79 屬性:兔兔'
   },
   { 
     id: '7917', 
     number: 876251929, 
     title: 'OK', 
-    category: 'LV.79 兔兔' 
+    category: 'LV.79 屬性:兔兔' 
   },
   {
     id: '7918',
     number: 876251930,
     title: '(乖乖)',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7919',
     number: 876251931,
     title: '謝謝(附紅蘿蔔)',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7920',
     number: 876251932,
-    title: '兔兔哭泣(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔哭泣',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7921',
     number: 876251933,
-    title: '兔兔坐上趴下的你(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔坐上趴下的你',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7922',
     number: 876251934,
-    title: '兔兔吃生菜(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔吃生菜',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7923',
     number: 876251935,
     title: '兔兔問號?',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   { 
     id: '7924', 
     number: 876251936, 
     title: '早安', 
-    category: 'LV.79 兔兔' 
+    category: 'LV.79 屬性:兔兔' 
   },
   { 
     id: '7925', 
     number: 876251937, 
     title: '來接我', 
-    category: 'LV.79 兔兔' 
+    category: 'LV.79 屬性:兔兔' 
   },
   {
     id: '7926',
     number: 876251938,
-    title: '兔兔用腳踢你(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔用腳踢你',
+    category: 'LV.79 屬性:兔兔'
   },
   { 
     id: '7927', 
     number: 876251939, 
     title: '不要。', 
-    category: 'LV.79 兔兔' 
+    category: 'LV.79 屬性:兔兔' 
   },
   {
     id: '7928',
     number: 876251940,
-    title: '兔兔堵住你的嘴(動作)',
-    category: 'LV.79 兔兔'
+    title: '動作：兔兔堵住你的嘴',
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7929',
     number: 876251941,
     title: '好了，你可以滾了',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7930',
     number: 876251942,
     title: '兔兔躺平(附手機)',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   { 
     id: '7931', 
     number: 876251943, 
     title: '(貼)', 
-    category: 'LV.79 兔兔' 
+    category: 'LV.79 屬性:兔兔' 
   },
   { 
     id: '7932', 
     number: 876251944, 
     title: '晚安', 
-    category: 'LV.79 兔兔' 
+    category: 'LV.79 屬性:兔兔' 
   },
   {
     id: '7933',
     number: 876251945,
     title: '好像要生一場幾萬塊的病了',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7934',
     number: 876251946,
     title: '打發我?',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7935',
     number: 876251947,
     title: '(上供)',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7936',
     number: 876251948,
     title: '......',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7937',
     number: 876251949,
     title: '(不想聽)',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7938',
     number: 876251950,
     title: '啊......(附紅蘿蔔)',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7939',
     number: 876251951,
     title: '我想毀滅世界',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   {
     id: '7940',
     number: 876251952,
     title: '我怒怒症要發作了(附球棒)',
-    category: 'LV.79 兔兔'
+    category: 'LV.79 屬性:兔兔'
   },
   { 
     id: '8001', 
     number: 890826737, 
     title: '蛤', 
-    category: 'LV.80 狗狗' 
+    category: 'LV.80 屬性:狗狗' 
   },
   {
     id: '8002',
     number: 890826738,
     title: '我的世界在下雨',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8003',
     number: 890826739,
-    title: '狗狗流汗(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：狗狗流汗',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8004',
     number: 890826740,
-    title: '狗狗失望(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：狗狗失望',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8005',
     number: 890826741,
     title: '好安靜...(附熊熊)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8006',
     number: 890826742,
     title: '我以為我們永遠有話講...',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8007',
     number: 890826743,
-    title: '噴狗狗(附噴水器)',
-    category: 'LV.80 狗狗'
+    title: '動作：噴狗狗(附噴水器)',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8008',
     number: 890826744,
     title: '(狗狗祟祟)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8009',
     number: 890826745,
     title: '(躺平)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8010',
     number: 890826746,
     title: '(大吸特吸)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8011',
     number: 890826747,
     title: '(難過小狗)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8012',
     number: 890826748,
     title: '你已經30秒沒有跟我講話了',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8013',
     number: 890826749,
     title: '你是不是不要我了',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8014',
     number: 890826750,
-    title: '狗狗端茶(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：狗狗端茶',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8015',
     number: 890826751,
-    title: '狗狗撒嬌(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：狗狗撒嬌',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8016',
     number: 890826752,
     title: '接我(附瓜皮安全帽)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8017',
     number: 890826753,
-    title: '被接的狗狗(附推車)(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：被接的狗狗(附推車)',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8018',
     number: 890826754,
-    title: '狗狗從廁所看你(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：狗狗從廁所看你',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8019',
     number: 890826755,
     title: '(翻滾)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8020',
     number: 890826756,
-    title: '無力狗狗(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：無力狗狗',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8021',
     number: 890826757,
-    title: '狗狗坐馬桶(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：狗狗坐馬桶',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8022',
     number: 890826758,
     title: '(咬被被)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8023',
     number: 890826759,
     title: '(譴責的眼神)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8024',
     number: 890826760,
     title: '我的呢?',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   { 
     id: '8025', 
     number: 890826761, 
     title: '那個要', 
-    category: 'LV.80 狗狗' 
+    category: 'LV.80 屬性:狗狗' 
   },
   {
     id: '8026',
     number: 890826762,
     title: '好棒好棒(附按鈕)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8027',
     number: 890826763,
     title: '滾滾滾(附按鈕)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8028',
     number: 890826764,
     title: '陪我陪我(附按鈕)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8029',
     number: 890826765,
     title: '肉肉肉肉(附按鈕)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8030',
     number: 890826766,
     title: '謝謝(附按鈕)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8031',
     number: 890826767,
     title: '說話說話(附按鈕)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8032',
     number: 890826768,
     title: '吃飯吃飯(附按鈕)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   { 
     id: '8033', 
     number: 890826769, 
     title: '敲碗碗', 
-    category: 'LV.80 狗狗' 
+    category: 'LV.80 屬性:狗狗' 
   },
   { 
     id: '8034', 
     number: 890826770, 
     title: '好呀', 
-    category: 'LV.80 狗狗' 
+    category: 'LV.80 屬性:狗狗' 
   },
   {
     id: '8035',
     number: 890826771,
-    title: '狗狗給愛心(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：狗狗給愛心',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8036',
     number: 890826772,
-    title: '狗狗咬你(動作)',
-    category: 'LV.80 狗狗'
+    title: '動作：狗狗咬你',
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8037',
     number: 890826773,
     title: '我最愛的人卻這樣對我...',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8038',
     number: 890826774,
     title: '(哄不好了)',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8039',
     number: 890826775,
     title: '你就罵我吧',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   },
   {
     id: '8040',
     number: 890826776,
     title: '把最愛你的小狗罵走吧',
-    category: 'LV.80 狗狗'
+    category: 'LV.80 屬性:狗狗'
   }
 ]
