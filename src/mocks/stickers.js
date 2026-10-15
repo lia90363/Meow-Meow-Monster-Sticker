@@ -19011,5 +19011,244 @@ export const mockStickers = [
     number: 890826776,
     title: '把最愛你的小狗罵走吧',
     category: 'LV.80 屬性:狗狗'
+  },
+  { id: '100101',
+    number: 907332385, 
+    title: '讚', 
+    category: 'RE.01 猴子' 
+  },
+  {
+    id: '100102',
+    number: 907332386,
+    title: '謝謝!',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100103',
+    number: 907332387,
+    title: '收到',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100104',
+    number: 907332388,
+    title: '哈哈',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100105',
+    number: 907332389,
+    title: 'OK唷',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100106',
+    number: 907332390,
+    title: '動作：猴子比愛心',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100107',
+    number: 907332391,
+    title: '快點!!!!',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100108',
+    number: 907332392,
+    title: '喝熱水',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100109',
+    number: 907332393,
+    title: '馬上爆富!(新春大吉)',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100110',
+    number: 907332394,
+    title: '錢錢入帳',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100111',
+    number: 907332395,
+    title: '(財富自由)',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100112',
+    number: 907332396,
+    title: '我吃一口',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100113',
+    number: 907332397,
+    title: '走!去吃飯',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100114',
+    number: 907332398,
+    title: '謝謝乾爹',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100115',
+    number: 907332399,
+    title: '請收下!',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100116',
+    number: 907332400,
+    title: 'Hi',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100117',
+    number: 907332401,
+    title: '刷刷(附魔法小卡)',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100118',
+    number: 907332402,
+    title: '坐以待幣',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100119',
+    number: 907332403,
+    title: '不客氣',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100120',
+    number: 907332404,
+    title: '我是一根香蕉',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100121',
+    number: 907332405,
+    title: '給你(附香蕉)',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100122',
+    number: 907332406,
+    title: '欸~~~~~',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100123',
+    number: 907332407,
+    title: '把錢放進來',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100124',
+    number: 907332408,
+    title: '生存下來啦!',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100125',
+    number: 907332409,
+    title: '我不是閒猴 我要工作的',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100126',
+    number: 907332410,
+    title: '(秘密交易))',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100127',
+    number: 907332411,
+    title: '所以有買嗎',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100128',
+    number: 907332412,
+    title: '錢欸',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100129',
+    number: 907332413,
+    title: '(害怕)',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100130',
+    number: 907332414,
+    title: '這是這個月的關係維護費',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100131',
+    number: 907332415,
+    title: '吱!(附搶劫)',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100132',
+    number: 907332416,
+    title: '打劫!',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100133',
+    number: 907332417,
+    title: '吱!!(附人質)',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100134',
+    number: 907332418,
+    title: '可以給我嗎?',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100135',
+    number: 907332419,
+    title: '怎麼這樣',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100136',
+    number: 907332420,
+    title: '沒事了',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100137',
+    number: 907332421,
+    title: '(進化)',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100138',
+    number: 907332422,
+    title: '(退化)',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100139',
+    number: 907332423,
+    title: '哦~~~',
+    category: 'RE.01 猴子'
+  },
+  {
+    id: '100140',
+    number: 907332424,
+    title: '你太吵了!汪!(附香蕉狗)',
+    category: 'RE.01 猴子'
   }
 ]

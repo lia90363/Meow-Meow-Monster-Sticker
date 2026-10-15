@@ -188,7 +188,8 @@ const categories = [
   { label: 'LV.77', value: 'LV.77 屬性:派派' },
   { label: 'LV.78', value: 'LV.78 屬性:自定義' },
   { label: 'LV.79', value: 'LV.79 屬性:兔兔' },
-  { label: 'LV.80', value: 'LV.80 屬性:狗狗' }
+  { label: 'LV.80', value: 'LV.80 屬性:狗狗' },
+  { label: 'RE.01', value: 'RE.01 猴子' }
 ];
 </script>
 
